@@ -1,0 +1,42 @@
+body{
+margin: 0px;
+
+}
+
+.contenedorPrincipal{
+  text-align: center;
+}
+
+
+.contendor {
+  margin: auto;
+  width: 700px;
+  height: 60px;
+}
+
+.cuadro{
+  margin: 10px 0px 10px 0px;
+  padding:5px 5px 5px 5px;
+  display: block;
+  border: 2px solid black;
+}
+
+.fila{
+   display: block;
+}
+.fila span {
+
+   width: 100%;
+
+}
+
+.btn{
+  width: calc(8.3% * 2);
+   margin: 10px 20px 10px 0px;
+}
+
+
+.contenedorPrincipal a{
+ color: brown;
+ padding: 0px 10px 0px 10px;
+}
