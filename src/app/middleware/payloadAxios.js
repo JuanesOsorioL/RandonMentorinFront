@@ -13,7 +13,7 @@ import {
 } from "../../actions/randomGetActions";
 
 //const BASEURL = "https://dry-mountain-93938.herokuapp.com/";
-const BASEURL = "https://randomback.herokuapp.com/";
+const BASEURL = "https://cryptic-scrubland-74751.herokuapp.com/";
 
 
 export const axiosPostRandom = (state) => (dispatch) => {
@@ -22,7 +22,7 @@ export const axiosPostRandom = (state) => (dispatch) => {
 
   const options = {
     method: "POST",
-    url: BASEURL+"BackFuncional",
+    url: BASEURL+"backfuncional",
     headers: { "Content-Type": "application/json" },
     data: { list: state },
   };
@@ -42,7 +42,7 @@ export const axiosGetRandom = () => (dispatch) => {
 dispatch(loadinGetRandom());
   const options = {
     method: "GET",
-    url: BASEURL+"BackFuncional",
+    url: BASEURL + "backfuncional",
     headers: { "Content-Type": "application/json" },
   };
 
